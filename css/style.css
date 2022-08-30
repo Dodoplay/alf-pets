@@ -1,0 +1,166 @@
+*{box-sizing: border-box;}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-shadow: inherit;
+}
+image {
+    width: 100%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+body{
+    font-family: 'Slabo 27px', serif;
+    background-image: url(/img/bg-3.jpg);
+    position: relative;
+}
+
+/*! ********/
+/*! header**/
+/*! ********/
+.hero{
+    margin-top: 2px;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(/img/bg/bg-2.jpg); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+.hero .judul {
+    font-size: 9em;
+    font-weight: bold;
+    color: #7ee8fa;
+    text-shadow: 2px 2px 10px blue;
+}
+
+.hero .judul .pets{
+    color: #eec0c6;
+    text-shadow: 2px 2px 10px red;
+}
+
+.hero .sub-judul{
+    color: #26e9d9;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px white;
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -2px 2px 15px black;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+}
+
+nav .judul-nav {
+    font-size: 3em;
+    color: #7ee8fa;
+    text-shadow: 2px 2px 5px rgb(198, 137, 255),-1px 1px 1px black;
+    cursor: pointer;
+}
+
+nav .judul1:hover {
+    /* background-color: #eaeaea; */
+    text-shadow: 2px 2px 20px palevioletred;
+}
+
+nav .judul-nav .pets-nav{
+    color: #eec0c6;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 1.5em;
+    font-weight: 700;
+    color:cornflowerblue;
+    line-height: 3rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+nav ul .list:hover{
+    text-shadow: 4px 4px 20px palevioletred, -4px -4px 20px palevioletred;
+}
+
+
+nav ul .dropbtn:hover{
+    text-shadow: 2px 2px 10px palevioletred;
+}
+
+nav .lists .dropdown1:hover .dropbtn{
+    text-shadow: 4px 4px 20px palevioletred, -4px -4px 20px palevioletred;
+}
+
+.list-dropdown1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    background-color: #fff ;
+    line-height: 2.5rem;
+    animation: .8s ease-in;
+    text-align: left;
+    text-indent: 10px;
+    display: none;
+}
+
+.list-dropdown1 a{
+    text-shadow: none;
+}
+
+.list-dropdown1 a:hover {
+    background-color: pink;
+}
+
+.dropdown1:hover .list-dropdown1{
+    display:flex;
+}
+
+.about{
+    width: 100%;
+    height: 500px;
+    background: #eec0c6;
+    padding: 15px 7rem;
+}
+
+.about .about-judul{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#2fb7cf;
+    text-shadow:2px 1px 15px #fff;
+    text-align: center;
+}
+
+.about p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.about .alf-about{
+    color: #7ee8fa;
+    text-shadow: 2px 2px 10px blue;
+}
+
+.about .pets-about{
+    color: #eec0c6;
+    text-shadow: 2px 2px 10px red;
+}
+
+
+
+
