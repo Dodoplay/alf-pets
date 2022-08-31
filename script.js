@@ -8,3 +8,5 @@ setInterval(() => {
         tukar = 1
     }
 },3000)
+
+alert("hello")
