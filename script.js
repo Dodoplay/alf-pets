@@ -9,4 +9,3 @@ setInterval(() => {
     }
 },3000)
 
-alert("hello")

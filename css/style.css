@@ -88,7 +88,7 @@ nav ul li{
     font-weight: 700;
     color:cornflowerblue;
     line-height: 3rem;
-    text-shadow: 1px 1px 2px black;
+    text-shadow:1px 1px 2px black;
 }
 
 nav ul .list:hover{
@@ -131,9 +131,9 @@ nav .lists .dropdown1:hover .dropbtn{
 
 .about{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: #eec0c6;
-    padding: 15px 7rem;
+    padding: 3em 7rem;
 }
 
 .about .about-judul{
@@ -161,6 +161,37 @@ nav .lists .dropdown1:hover .dropbtn{
     text-shadow: 2px 2px 10px red;
 }
 
+.about .about-float .foto-about{
+    float: left;
+    margin-top: 20px;
+    border-radius: 20px;
+}
 
+.about .about-float .foto-about::after{
+    clear: both;
+}
 
+main .contact{
+width: 100%;
+height: 500px;
+background: #7ee8fa;
+padding: 3em 7rem;
+}
 
+main .contact .contact-judul{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#e973bc;
+    text-shadow:2px 1px 15px #fff;
+    text-align: center;
+}
+
+main .contact .alf-contact{
+    color: #7ee8fa;
+    text-shadow: 2px 2px 10px blue;
+}
+
+main .contact .pets-contact{
+    color: #eec0c6;
+    text-shadow: 2px 2px 10px red;
+}
