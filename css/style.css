@@ -95,6 +95,13 @@ nav ul .list:hover{
     text-shadow: 4px 4px 20px palevioletred, -4px -4px 20px palevioletred;
 }
 
+nav ul .dropbtn{
+    cursor: pointer;
+}
+
+nav ul .myProf-btn{
+    cursor: pointer;
+}
 
 nav ul .dropbtn:hover{
     text-shadow: 2px 2px 10px palevioletred;
@@ -194,4 +201,215 @@ main .contact .alf-contact{
 main .contact .pets-contact{
     color: #eec0c6;
     text-shadow: 2px 2px 10px red;
+}
+
+.contact .konten-contact{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact .isi-contact h1{
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #565656;
+    margin-top: 10px;
+}
+
+.contact .isi-contact p{
+    font-size: 1.5rem;
+    color: #565656;
+}
+
+.konten-contact .contact-data form {
+    display: flex;
+    flex-direction: column;
+}
+
+.konten-contact .contact-data form .input1 {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.konten-contact .contact-data form .input2 {
+    height: 130px;
+}
+
+.konten-contact .contact-data form .button-contact{
+    display: block;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+
+
+.gallery .dogs{
+    width: 100%;
+    height: 600px;
+    background: #eec0c6;
+    padding: 3em 7rem;
+}
+
+.gallery .dogs h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#2fb7cf;
+    text-shadow:2px 1px 15px #fff;
+    text-align: center;
+}
+
+.gallery .cats{
+    width: 100%;
+    height: 600px;
+    background: #7ee8fa;
+    padding: 3em 7rem;
+}
+
+.gallery .cats h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#e973bc;
+    text-shadow:2px 1px 15px #fff;
+    text-align: center;
+}
+
+.gallery .reptiles{
+    width: 100%;
+    height: 600px;
+    background: #eec0c6;
+    padding: 3em 7rem;
+}
+
+.gallery .reptiles h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:#2fb7cf;
+    text-shadow:2px 1px 15px #fff;
+    text-align: center;
+}
+
+.gallery .cards{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.gallery .cards .card{
+    width: 250px;
+    height: 340px;
+    border-radius: 5px ;
+    border: 1px solid #444;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+}
+
+.gallery .cards h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343434;
+    padding: 10px 10px;
+}
+
+
+.gallery .cards a {
+    border: 1px solid black;
+}
+
+.cards .card img{
+    width: 250px;
+}
+
+.cards .card .button-card{
+    display: block;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background:  #fff;
+}
+
+footer .copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 1rem;
+    margin:  0px auto;
+}
+
+nav .lists .myProfile .profile {
+    position: absolute;
+    width: 400px;
+    right: 0px;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 10px;
+
+    display: none;
+}
+
+nav .lists .myProfile  .muncul{
+    display: block;
+    animation: slideAndFade 3s ease-out forwards;
+}
+
+nav .lists .myProfile .profile p{
+    font-size: 1rem;
+    color: #343434  ;
+}
+
+
+
+@keyframes slideAndFade {
+    0%{
+        right: -400px;
+        opacity: 0;
+    }    
+    100%{
+        right: 70px;
+        opacity: 1;
+    }    
+}
+
+@keyframes slideAndFadego {
+    0%{
+
+        right: 70px;
+        opacity: 1;
+    }    
+    100%{
+        right: -400px;
+        opacity: 0;
+    }    
 }
